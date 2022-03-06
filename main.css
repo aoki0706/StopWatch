@@ -1,0 +1,35 @@
+.flame {
+    background: #eaeaea; /* 背景色 */
+    border-radius: 30px;
+    border: 2px solid;
+    width:min-content;
+    padding: 10px;
+}
+#timer {
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+.buttons {
+    text-align: center;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.buttons button {
+font-weight: bold;
+font-size: 11px;
+border-radius: 50%;
+width: 60px;
+height: 60px;
+}
+#start {
+    background-color: #00FF00;
+}
+#stop {
+    background-color: #FF0000;
+}
